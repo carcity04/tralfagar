@@ -115,11 +115,16 @@ h3{
 }
 .box-con{
     background-image: url('asset/images/Frame.png');
+    display: flex;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
 }
-.box-1{
+.box-1,.box-2,
+.box-3{
     width: 200px;
     height: 150px;
-    margin-left: 20%;
+    margin-left: 10%;
   box-shadow: 10px 40px 50px 0px rgb(229, 233, 246, 0.4);
     
 }
@@ -128,6 +133,7 @@ h3{
     color:  rgb(31, 21, 52,0.5);
     text-align: center;
 }
+
 
 @media (max-width:600px) {
   
@@ -168,6 +174,9 @@ h2{
     margin-left: 50px;
     
 
+}
+.box-con{
+    flex-direction: column;
 }
     
 }
