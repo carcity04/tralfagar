@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: "Mulish"
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:30px 80px;
+}
+.left-div{
+    width: 50%;
+  
+}
+.right-div{
+    width:50%;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+}
+ul li a{
+    text-decoration: none;
+    color:  rgb(31, 21, 52,0.5);
+    
+}
+#menu{
+    display: none;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    padding:30px 80px;
+    align-items: center;
+  
+}
+.main-1{
+    width: 50%;
+    
+}
+.main-2{
+    width: 50%;
+ 
+}
+h2{
+ 
+    font-size: 48px;
+
+}
+.pra{
+    color:  rgb(31, 21, 52,0.5);
+    font-size: 21px;
+    line-height: 32px;
+    padding-bottom: 30px;
+    font-weight: 300;
+}
+
+
+.left-con{
+    width: 445px;
+    height: 338px;
+}
+
+    
+
+button{
+    background-color: #458FF6;
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: none;
+    color: white;
+    
+}
+.img-2{
+    width: 100%;
+}
+hr{
+    border-style: 15px;
+    border-color:rgb(31, 21, 52,0.5) ;
+    height: 1px;
+    width: 40px;
+    margin: 1% 0 4% 48%;
+
+}
+h3{
+    text-align: center;
+}
+.pragra{
+    color:  rgb(31, 21, 52,0.5);
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 30px;
+    font-weight: 300;
+    text-align: center;
+
+}
+.text{
+    width: 70%;
+    height: 30%;
+    align-items: center;
+    margin-left: 180px ;
+}
+.box-con{
+    background-image: url('asset/images/Frame.png');
+}
+.box-1{
+    width: 200px;
+    height: 150px;
+    margin-left: 20%;
+  box-shadow: 10px 40px 50px 0px rgb(229, 233, 246, 0.4);
+    
+}
+.pra-2{
+    font-size: 16px;
+    color:  rgb(31, 21, 52,0.5);
+    text-align: center;
+}
+
+@media (max-width:600px) {
+  
+  
+    header{
+        padding: 10px;
+        justify-content: space-between;
+    }
+    .right-div{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+  .left-div{
+    padding: 0;
+  }
+  main{
+    flex-direction: column;
+    padding: 20px;
+}
+.main-1,.main-2{
+    width: 100%;
+}
+.right-con{
+    width: 100%;
+}
+.left-con{
+    width: 100%;
+}
+h2{
+    font-size: 30px;
+}
+.pra{
+    font-size: 18px;
+}
+.text{
+    margin-left: 50px;
+    
+
+}
+    
+}
