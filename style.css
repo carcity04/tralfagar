@@ -75,7 +75,7 @@ h2{
 
     
 
-button{
+.btn-1{
     background-color: #458FF6;
     width: 200px;
     height: 56px;
@@ -83,6 +83,15 @@ button{
     border: none;
     color: white;
     
+}
+.btn-2{
+    color: #458FF6;
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1px solid #458FF6;
+    background-color: white;
+
 }
 .img-2{
     width: 100%;
@@ -113,27 +122,48 @@ h3{
     align-items: center;
     margin-left: 180px ;
 }
-.box-con{
+
+.box-con1{
     background-image: url('asset/images/Frame.png');
     display: flex;
     background-size: cover;
     justify-content: space-between;
     align-items: center;
- 
+
 }
-.box-1,.box-2,
-.box-3{
+
+.box-2{
     width: 200px;
     height: 150px;
-    margin: 5%;
+    margin:6%;
   box-shadow: 10px 40px 50px 0px rgb(229, 233, 246, 0.4);
   border: 1px solid  rgb(229, 233, 246, 0.4);
     
 }
-.pra-2{
+.pra-2,.pra-3{
     font-size: 16px;
     color:  rgb(31, 21, 52,0.5);
     text-align: center;
+}
+
+.con-3,.con-4{
+    display: flex;
+    width: 100%;
+}
+.sec01,.sec04{
+    width: 70%;
+    margin:12% ;
+  
+
+
+}
+
+.sec02,.sec03{
+    width: 30%;
+    margin: 12%;
+    
+   
+
 }
 
 
@@ -177,11 +207,11 @@ h2{
     
 
 }
-.box-con{
+.box-con,.box-con1,.box-3{
     flex-direction: column;
+    align-items: center;
 }
-.box-1,.box-2,
-.box-3{
+.box-1{
     width: 200px;
     height: 150px;
     margin: 10%;
@@ -189,10 +219,34 @@ h2{
   border: 1px solid  rgb(229, 233, 246, 0.4);
     
 }
+.con-3,.con-4{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.sec01,.sec02,.sec03,.sec04{
+    width: 100%;
+    align-items: center;
+}
     
 }
 @media only screen and (max-width: 600px) {
     .box-1 {
       width: 100%;
+    }
+    .sec01,.sec04{
+        width: 100%;
+        margin:0% ;
+      
+    
+    
+    }
+    
+    .sec02,.sec03{
+        width: 50%;
+        margin: 5%;
+        
+       
+    
     }
   }
