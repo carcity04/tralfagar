@@ -49,17 +49,19 @@
 
         </div>
     </main>
-    <section>
+    <section class="our">
+        <div>
         <h3>Our services</h3>
-        <hr>
+        <hr class="hr-1">
         
-        <div class="text">
+    
            
-        <p class="pragra">We provide to you the best choiches for you. Adjust it to your health needs and
-             make sure your undergo treatment with our highly qualified doctors you can 
+        <p class="pra-2">We provide to you the best choiches for you. Adjust it to your health needs and
+             make sure your undergo treatment<br> with our highly qualified doctors you can 
              consult with us which type of service is suitable for your health</p>
              </div>
-
+    </section>
+    <section>
              <div class="box-con1">
                 <div class="box-2">
                <img src="asset/images/Frame (1).png" alt="frame">
@@ -100,13 +102,14 @@ lovely family</p>
                 </div>
                 <div class="box-2">
                     <img src="asset/images/Frame (6).png" alt="">
-                    <h6>Tracking</h6>
+                    <h4>Tracking</h4>
 <p class="pra-2">Track and save your medical history and health data </p>
 
 
                 </div>
 
              </div>
+             <button class="btn-3">learn more</button>
              
            
              </section>
@@ -121,6 +124,7 @@ lovely family</p>
                 <div class="sec02">
 
             <h3>Leading healthcare providers</h3>
+            <hr class="hr-2">
 <p class="pra-3">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
 in the solutions we deliver</p>
 <button class="btn-2">learn more</button>
@@ -132,10 +136,11 @@ in the solutions we deliver</p>
 
             <h3> Download our 
 mobile apps</h3>
+<hr class="hr-2">
 <p class="pra-3">Our dedicated patient engagement app and 
 web portal allow you to access information instantaneously (no tedeous form, long calls, 
 or administrative hassle) and securely</p>
-<img src="asset/images/btn.jpg" alt="btn">
+<button class="btn-2">Download</button>
 </div>
 <div class="sec04">
 
@@ -143,9 +148,148 @@ or administrative hassle) and securely</p>
 
 </div>
     
-
-
+ </section>
+ <section>
+    <div class="slideshow-container">
+   
+       <div class="mySlides fade">
+         <div class="numbertext">1 / 3</div>
+         <img src="asset/images/testimonials.png" class="slide-img">
+    
+       </div>
+       
+       <div class="mySlides fade">
+         <div class="numbertext">2 / 3</div>
+         <img src="asset/images/testimonials-removebg-preview (1).png" class="slide-img">
+     
+       </div>
+       
+       <div class="mySlides fade">
+         <div class="numbertext">3 / 3</div>
+         <img src="asset/images/testimonials-removebg-preview (1).png" class="slide-img">
         
-             </section>
+       </div>
+   
+       
+       <a class="prev" onclick="plusSlides(-1)">❮</a>
+       <a class="next" onclick="plusSlides(1)">❯</a>
+       
+       </div>
+       <br>
+       
+       <div style="text-align:center">
+         <span class="dot" onclick="currentSlide(1)"></span> 
+         <span class="dot" onclick="currentSlide(2)"></span> 
+         <span class="dot" onclick="currentSlide(3)"></span> 
+       </div>
+    </section>
+
+
+
+    <section>
+        <div class="out">
+        <h3>Check out our latest article</h3>
+        <hr class="hr-1">
+        </div>
+      
+        <div class="mask-con">
+       
+            <div class="mask-1">
+                <img src="asset/images/Mask Group.png" alt="mask" class="mask-img">
+               <h5> Disease detection, check 
+    up in the laboratory</h5>
+    <p class="pra-4">In this case, the role of the health laboratory is very important to do
+    a disease detection</p>
+    <p class="read">Read more...</p>
+    
+            </div>
+            <div class="mask-2">
+                <img src="asset/images/Mask Group (1).png" alt="mask" class="mask-img">
+               <h5>Herbal medicines that are safe for consumption</h5>
+               <p class="pra-4">Herbal medicine is very widely used at this time because of its very good for your health</p>
+               <p class="read">Read more...</p>
+            </div>
+            <div class="mask-3">
+                <img src="asset/images/Mask Group (2).png" alt="mask" class="mask-img">
+              <h5> Natural care for healthy 
+    facial skin</h5>
+    <p class="pra-4">A healthy lifestyle should start from now and also for your skin health.
+    There are some</p>
+    <p class="read">Read more...</p>
+            </div>
+           
+        </div>
+        <button class="btn-3">viwe all</button>
+     </section>
+
+
+ 
+
+
+
+ <footer>
+    <div class="hd-1">
+<img src="asset/images/logo.png" alt="">
+<p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online 
+for everyone</p>
+<p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+</div>
+<div class="hd-2">
+<h5>Company</h5>
+
+<p>About</p>
+<p>Testimonials</p>
+<p>Find a doctor</p>
+<p>Apps</p>
+</div>
+<div class="hd-3">
+<h5>Region</h5>
+
+<p>Indonesia</p>
+<p>Singapore</p>
+<p>Hongkong</p>
+<p>Canada</p>
+</div>
+<div class="hd-4">
+ <h5 >Help</h5>
+
+
+<p>Help center   </p>
+<p>Contact support</p>
+<p>Instructions</p>
+<p>How it works</p>
+</div>
+
+ </footer>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+
+        </script>
 </body>
 </html>
