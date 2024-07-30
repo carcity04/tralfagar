@@ -6,7 +6,7 @@
 body{
 
     font-family: "Mulish", sans-serif;
-    
+  
 }
 header{
     width: 100%;
@@ -261,41 +261,7 @@ h3{
 h5{
   font-size: 18px;
 }
-footer{
-    width: 100%;
-   
-    display: flex;
-    background-color:rgba(90, 152, 242, 1);
- 
-}
 
-.traf{
-
-    width: 50%;
-    color: white;
-    padding: 50px;
-    display: flex;
-   
-
-}
-
-.traf-1{
- 
-    width: 50%;
-
-    color: white;
-    padding: 50px;
-    display: flex;
- 
-    
-}
-.hd-1{
-    width: 70%;
-}
-.hd-2,.hd-3,.hd-4{
-    width: 30%;
-
-}
 /* Slideshow container */
 .slideshow-container {
     max-width: 1100px;
@@ -389,6 +355,41 @@ footer{
      font-family: "Mulish"
 }
 
+
+.traf-1{
+    display: flex;
+    color: aliceblue;
+    width: 30%;
+    gap: 80px;
+    margin: 3%;
+
+  
+}
+.traf{
+    width: 70%;
+    color: aliceblue;
+    margin: 3%;
+    line-height: 38px;
+    font-size: 18px;
+
+
+
+}
+footer{
+width: 100%;
+
+display: flex;
+background-color:rgba(90, 152, 242, 1);
+
+
+
+}
+.hd-2{
+width: 10%;
+line-height: 38px;
+font-size: 18px;
+}
+
 @media (min-width:760px) and (max-width:1030px){
     header{
         width: 100%;
@@ -442,6 +443,9 @@ footer{
         width: 100%;
     }
   
+.traf-1{
+    flex-direction: column;
+}
     
 }
 @keyframes fade {
@@ -523,21 +527,13 @@ h2{
   }
  
 
-  .traf-1,.traf{
-      flex-direction: column;
-      line-height: 38px;
-      font-size: 18px;
-
-      
-      
-  }
   .con-3,.con-4{
     flex-direction: column;
     width: 100%;
     align-items: center;
 }
 .sec01,.sec02,.sec03,.sec04{
-    width: 100%;
+    width: 80%;
     align-items: center;
   
 }
@@ -558,19 +554,10 @@ h2{
 .slide-img{
     width: 100%;
 }
-.traf-1,.traf{
+
+.traf-1{
     flex-direction: column;
-    line-height: 38px;
-    font-size: 18px;
-    
-    
 }
-.hd-2,.hd-3{
-margin: 10% 0 0 0;
-}
-footer{
-    width: 100%;
-    background-color: #458FF6;
-}
+
 
 }
