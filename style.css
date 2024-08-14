@@ -19,7 +19,7 @@ body{
     
 }
 .top-section{
-    background-image: url('/images/Bitmap.png');
+    background-image: url('asset/Bitmap.png');
     padding: 0.5rem 5rem;
     width: 100%;
   
@@ -195,7 +195,7 @@ body{
     padding: 0 !important;
 }
 .footer-section{
-    background-image: url('/images/BG\ \(1\).png');
+    background-image: url('asset/BG\ \(1\).png');
     width: 100%;
 }
 .primary-1{
