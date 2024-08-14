@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @font-face{
     font-family: gilroysemibold;
-    src: url("./assets/gilroy/Gilroy-SemiBold.ttf");
+    src: url("./gilroy/Gilroy-SemiBold.ttf");
 }
 *{
     padding: 0;
@@ -13,11 +13,13 @@ body{
     font-family: "Rubik",sans-serif;
     overflow:scroll;
     background-color: white;
+    overflow-x: hidden !important;
+overflow: auto;
   
     
 }
 .top-section{
-    background-image: url('assets/images/Bitmap.png');
+    background-image: url('/images/Bitmap.png');
     padding: 0.5rem 5rem;
     width: 100%;
   
@@ -193,7 +195,7 @@ body{
     padding: 0 !important;
 }
 .footer-section{
-    background-image: url('assets/images/BG\ \(1\).png');
+    background-image: url('/images/BG\ \(1\).png');
     width: 100%;
 }
 .primary-1{
