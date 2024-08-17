@@ -61,6 +61,11 @@ body{
 .hero-all{
     width: 80%;
 }
+
+.top-img{
+    width: 100%;
+}
+
 .service{
     color: rgba(246, 75, 75, 1);
     font-size: 13px;
@@ -114,14 +119,15 @@ body{
     color: rgb(255, 255, 2555,0.5);
     text-align: center;
 }
+.hero-hd{
+    color: white;
+    line-height: 34px;
+}
 .my-btn{
     color: rgb(255, 255, 255, 1);
 }
 
-.top-img{
-    width: 100%;
-}
-.story,  .story-2 , .story-3{
+.story{
     width: 100%;
     
     
@@ -151,49 +157,22 @@ body{
     
 
 }
-.hero-hd{
-    color: white;
-    line-height: 34px;
-}
-.text-sm{
-    color: rgba(22, 28, 45, 0.5);
-
-}
-.box-img{
-    width: 28%;
-}
-.center-section{
-    background-color: rgba(244, 247, 250, 1);
-    padding: 0 !important;
-}
-.small{
-    color: rgba(22, 28, 45, 0.5);
-
-    font-size: 17px;
-    line-height: 29px;
-}
-.headd{
-    width: 100%;
-    padding: 0 !important;
+.get-pro{
     margin: 0 !important;
- 
-    
-  
-   
-}
-.box-wid{
-    width: 409px;
-}
-.papa{
-    padding: 150px;
-}
-.obo{
-    width: 589px;
-}
-/* .card-best{
-    margin-left: 330px !important;
     padding: 0 !important;
-} */
+    width: 100%;
+}
+.hr-1{
+    border-style: 15px;
+    border-color:rgb(31, 21, 52,1) ;
+    height: 1px;
+    width: 1111px;
+    margin:0 40% 0 10% ;
+}
+.icon-s{
+    width: 100%;
+}
+
 .footer-section{
     background-image: url('asset/BG\ \(1\).png');
     width: 100%;
@@ -231,45 +210,11 @@ body{
 .footer-text-2{
     color: rgba(255, 255, 255, 0.5)
 }
-.card-best-2{
-    padding: 50px 0 0 230px !important;
-}
-.our-ser{
+
+.card-best{
+    margin-left: 330px !important;
     padding: 0 !important;
 }
-.omg-con{
-    margin: 0 !important;
-    padding-left: 50px !important;
-    width: 100%;
-}
-.omg-img{
-    width: 100%;
-}
-   .story-con-2 {
-    width: 100%;
-}
-.omega{
-    width: 100%;
-}
-.hr-1{
-    border-style: 15px;
-    border-color:rgb(31, 21, 52,1) ;
-    height: 1px;
-    width: 1111px;
-    margin:0 40% 0 10% ;
-}
-.icon-s{
-    width: 100%;
-}
-.get-pro{
-    padding: 0 !important;
-    width: 100%;
-}
-.work{
-    color: rgba(71, 59, 240, 1);
-
-}
-
 
 @media (min-width:760px) and (max-width:1030px){
     body{
@@ -281,6 +226,13 @@ body{
     
       
         
+    }
+    .hr-1{
+        border-style: 15px;
+        border-color:rgb(31, 21, 52,1) ;
+        height: 1px;
+        width: 711px;
+        margin: 1% 40% 4% 10%;
     }
     .business{
         flex-direction: column;
@@ -299,17 +251,15 @@ body{
             padding: 25px !important;
             margin-left: 150px !important; 
         } 
-
-    .omg-con{
-        padding-left: 70px !important;
-        width: 100%;
-        margin: 0 !important;
-
-    }
+        .omg-con{
+            padding-left: 70px !important;
     
-    .omg{
-        flex-direction: column;
-    }
+        }
+        
+        .omg{
+            flex-direction: column;
+        }
+
     .main-story-con{
         flex-direction: column;
     }
@@ -321,47 +271,15 @@ body{
        
         flex-direction: column !important;
     }
-    .headd{
-        width: 100%;
-       
-        
-      
-       
-    }
-    .hr-1{
-        border-style: 15px;
-        border-color:rgb(31, 21, 52,1) ;
-        height: 1px;
-        width: 711px;
-        margin: 1% 40% 4% 10%;
-    }
-    .primary-2{
 
-        color: rgba(255, 255, 255, 0.9);
-        width: 100%;
-        line-height: 44px;
-        padding-left: 0;
-     
-     
-     }
-     .card-set{
-        flex-direction: column;
-     }
-     .get-pro{
+    .peace{
         padding: 0 !important;
+        margin: 0 !important;
         width: 100%;
     }
-    .btn-flex{
-        flex-direction: column;
+
+
     }
-    .card-best{
-        margin-left: 10px !important;
-        padding: 0 !important;
-    }
-    .card-best-2{
-        padding: 50px 0 0 230px !important;
-    }
-}
 @media (max-width:600px){
     body{
    
@@ -373,6 +291,11 @@ body{
       
         
     }
+
+.card-best{
+    margin-left: 0!important;
+    padding: 0 !important;
+}
     .nav-item{
         padding: 0;
     }
@@ -418,17 +341,7 @@ body{
        
     
     }
-    .hr-1{
-        border-style: 15px;
-        border-color:rgb(31, 21, 52,1) ;
-        height: 1px;
-        width: 311px;
-        margin: 1% 40% 4% 10%;
-    }
-    .omega{
-        width: 100%;
-        padding-left: 55px !important;
-    }
+
     .ser-con{
         width: 250px;
         margin: 0;
@@ -438,6 +351,7 @@ body{
         margin: 0 !important;
         width: 100%;
     }
+
     .icon-img{
         width: 70%;
     }
@@ -451,100 +365,69 @@ body{
 
     
     }
-    .story-3{
-        width: 130px;
-    }
-    .box-main{
-        padding: 0 !important;
-        margin: 0 !important;
-        width: 100%;
-    }
-    .story-4{
-       padding-left: 50px;
-       margin: 0 !important;
-    }
-    .plug {
-        width: 100%;
-        padding: 25px !important;
-        margin: 0px !important; 
-    } 
-    .story-con-2 {
-        width: 100%;
+    .hr-1{
+        border-style: 15px;
+        border-color:rgb(31, 21, 52,1) ;
+        height: 1px;
+        width: 311px;
+        margin: 1% 40% 4% 10%;
     }
 
-    .top-img{
-        padding: 20px;
-    }
 
-    .bygon {
-        padding: 10px !important;
-    }
-    .story-con-2{
-        flex-direction: column;
-    }
-    .story{
-        width: 80%;
-    }
-    .story-1{
-        margin: 0 !important;
-        padding-left: 45px !important;
-       width:300px ;
-    }
-.story-con{
-    padding: 0 !important;
-    margin: 0 !important;
+.omega{
     width: 100%;
+    padding-left: 55px !important;
+}
+
+
+.story-4{
+    padding-left: 50px;
+    margin: 0 !important;
+ }
+ .plug {
+     width: 100%;
+     padding: 25px !important;
+     margin: 0px !important; 
+ } 
+ 
+
+ .top-img{
+     padding: 20px;
+ }
+
+ .story-con-2{
+    flex-direction: column;
+}
+.story{
+    width: 80%;
+}
+.story-1{
+    margin: 0 !important;
+    padding-left: 45px !important;
+   width:300px ;
+}
+.story-con{
+padding: 0 !important;
+margin: 0 !important;
+width: 100%;
 }
 .main-story{
-   
-    padding: 0 !important;
-    margin: 0 !important;
+
+padding: 0 !important;
+margin: 0 !important;
 }
 .main-story-2{
-    margin: 0 !important;
-    padding: 0 !important;
+margin: 0 !important;
+padding: 0 !important;
 }
 .main-story-1{
     margin: 0 !important;
     padding: 0 !important;
-}
-.papa{
-    padding: 20px;
-}
-.headd{
-    width: auto;
 
-}
- .footer-section{
-    width: 100%;
- }   
-  
-   
-.footer-main{
-    width: 100%;
-}
-.box-wid{
-    width: 380px;
-}
-.obo{
-    width: 289px;
-}
-.card-best-2{
-    padding: 50px 0 0 100px !important;
-}
-.card-best{
-    margin-left: 0 !important;
-    padding: 0 !important;
-}
-.get-pro{
-    padding-left: 50px !important;
-    margin: 0 !important;
-    width: 100%;
 }
 .peace{
     padding: 0 !important;
     margin: 0 !important;
     width: 100%;
 }
-
 }
